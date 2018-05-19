@@ -191,7 +191,31 @@ body {
     opacity: 0.4; }
   1% {
     opacity: 1; }
+  1.2% {
+    opacity: 0.4; }
+  1.4% {
+    opacity: 1; }
   100% {
     opacity: 1; } }
+.glitch {
+  position: absolute;
+  display: block;
+  top: -5%;
+  left: 0;
+  height: 5%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  animation: glitchAnimation 15s infinite;
+  animation-delay: 4s; }
 
-/*# sourceMappingURL=gamefinder.css.map */
+@keyframes glitchAnimation {
+  8% {
+    transform: translateY(110vh);
+    opacity: 1; }
+  10% {
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 0; } }
+
+/*# sourceMappingURL=retroarcade.css.map */
